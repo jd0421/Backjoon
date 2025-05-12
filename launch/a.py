@@ -1,33 +1,15 @@
-# n = input()
-# m = input()
+# 250210 2744 부터
+###
 
-# n = int(n)
-# m = int(m)
-
-# print(abs(n-m))
-# print(a-b)
-# print(a*b)
-
-
-# if a > b : 
-#     print(">")
-# elif a < b : 
-#     print("<")
-# else : 
-#     print("==")
-
-# a, b = map(int, input().split())
-# print(abs(a-b))
-
-a, b, c, d, e = map(int, input().split())
-x_1 = [a, b, c, d, e]
-x = 0
+# a = 1999
+int(input())
+if a % 4 == 0 and a % 100 != 0 : 
+    print(1)
+elif a % 400 == 0 :
+    print(1)
+else : 
+    print(0)
+    
 
 
-for i in x_1 :  
-    x += i ** 2
 
-x%=10
-print(x)
-
-# 2744 부터
